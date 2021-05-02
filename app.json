@@ -27,7 +27,7 @@
         "backgroundColor": "#FFFFFF"
       },
       "useNextNotificationsApi": true,
-      "package":"plus.99plus.com"
+      "package":"com.plus99.plus"
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
