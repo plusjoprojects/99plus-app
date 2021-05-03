@@ -92,7 +92,7 @@ let SettingsMain = (props) => {
                 <View style={{marginTop:10}}></View>
                 <Language />
                 {/* <ListItem icon="share-outline" title={"مشاركة"} onPress={() => {setType("Language");openBottomSheet()}} /> */}
-                <ListItem icon="inbox-outline" title={"اتصل بنا"} onPress={() => {}} />
+                {/* <ListItem icon="inbox-outline" title={"اتصل بنا"} onPress={() => {}} /> */}
                 {auth && 
                     <ListItem icon="log-out-outline" title={translate("settings.logout")} onPress={Logout} />
                 }

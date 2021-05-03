@@ -209,11 +209,11 @@ let CardSpecial = (props) => {
             <View>
               <View style={{ width: '100%', justifyContent: 'space-between', flexDirection: 'row', alignItems: 'flex-start' }}>
                 <View style={{ flex: 1, }}>
-                  <Icon
+                  {/* <Icon
                     name={"share-outline"}
                     fill={theme['text-hint-color']}
                     style={{ width: 22, height: 22 }}
-                  />
+                  /> */}
                 </View>
                 <TouchableOpacity onPress={() => {
                   navigation.navigate("Item", { itemID: data.ID });

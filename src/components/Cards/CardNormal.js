@@ -241,11 +241,11 @@ let CardNormal = ({ data,wishListItems }) => {
                     />
                 </TouchableOpacity>
                 <View style={{ position: 'absolute', left: 0, top: 0, padding: 2 }}>
-                    <Icon
+                    {/* <Icon
                         name={"share-outline"}
                         fill={theme['text-hint-color']}
                         style={{ width: 18, height: 18 }}
-                    />
+                    /> */}
                 </View>
             </Layout>
             <View style={{ padding: 5 }}>

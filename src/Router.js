@@ -22,7 +22,7 @@ import IntroNavigation from "./navigation/IntroNavigation"; // Intro with first 
 const Stack = createStackNavigator(); // Create the stack
 
 
-// LogBox.ignoreLogs(["Accessing the 'state' property of the 'route' object is not supported. If you want to get the focused route name, use the 'getFocusedRouteNameFromRoute' helper instead: https://reactnavigation.org/docs/screen-options-resolution/#setting-parent-screen-options-based-on-child-navigators-state"]);
+LogBox.ignoreLogs(["Accessing the 'state' property of the 'route' object is not supported. If you want to get the focused route name, use the 'getFocusedRouteNameFromRoute' helper instead: https://reactnavigation.org/docs/screen-options-resolution/#setting-parent-screen-options-based-on-child-navigators-state"]);
 // Theme And Components
 import { ApplicationProvider, IconRegistry, } from "@ui-kitten/components"; // UI Application Provider
 import { EvaIconsPack } from "@ui-kitten/eva-icons"; // Icons Pack
